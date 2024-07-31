@@ -1,0 +1,8 @@
+fastapi==0.103.0
+uvicorn[standard]==0.22.0
+pydantic==2.0.2
+pytest==7.4.2
+httpx==0.24.1
+python-dotenv==1.0.0
+supertokens_python
+openai==0.28

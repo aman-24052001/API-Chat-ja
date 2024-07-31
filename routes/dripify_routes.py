@@ -6,9 +6,9 @@ import uuid
 router = APIRouter()
 
 @router.post("/start-chat")
-def start_chat(user_input:str):
+def start_chat():
     workflowId = str(uuid.uuid4())
-    return trigger_workflow_chat( workflowId)
+    return trigger_workflow_chat(workflowId)
 
 @router.post("/continue-chat", response_model=WorkflowChat)
 def continue_chat(request: ContinueChatRequest):

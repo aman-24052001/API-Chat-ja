@@ -1,0 +1,13 @@
+{
+  "id": "b77aeaa3-c17f-4344-82fd-3aa4b236aa3f",
+  "workflowid": "4d3597c4-34ef-4833-8b53-1fe55f01f5c6",
+  "messages": [
+    {
+      "question": "Hi there! I'm here to help you set up your Dripify campaign. What type of campaign would you like to create? Options include Welcome Series, Product Launch, Customer Re-engagement, etc.",
+      "response": null
+    }
+  ],
+  "collected_info": {},
+  "is_completed": false,
+  "json_filename": null
+}
